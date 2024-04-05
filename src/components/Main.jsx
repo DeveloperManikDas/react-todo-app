@@ -2,7 +2,7 @@ import React from "react";
 import { Todo } from "./Todo.jsx";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
 import { IoMdAddCircleOutline } from "react-icons/io";
-import "./main.css";
+import "../assets/main.css";
 export const Main = () => {
   return (
     <main>

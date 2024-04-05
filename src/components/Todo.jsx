@@ -2,7 +2,7 @@ import React from "react";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { IoIosTime } from "react-icons/io";
-import "./todo.css";
+import "../assets/todo.css";
 
 export const Todo = () => {
   return (

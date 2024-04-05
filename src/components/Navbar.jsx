@@ -1,6 +1,6 @@
 import React from 'react'
 import { CiMenuFries } from "react-icons/ci";
-import './navbar.css'
+import '../assets/navbar.css'
 export const Navbar = () => {
   return (
     <nav>
