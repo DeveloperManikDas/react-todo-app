@@ -1,0 +1,13 @@
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+.menu-icon{
+    color: white;
+    width: 90px;
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+main{
+padding: 20px; 
+height: 90vh;
+border: 1px solid;
+position: relative;
+}
+.date-stripe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.date-stripe h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.date-stripe{
+ background-color: rgb(242, 242, 242);
+}
+.date-vavigation-icon{
+    font-size: 2rem;
+    opacity: 30%;
+}
+.add{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    border: 3px solid black;
+    box-shadow: 0 0 1px 1px ;
+}
+.add .add-icon{
+    font-size: 2rem;
+}

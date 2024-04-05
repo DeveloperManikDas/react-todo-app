@@ -1,0 +1,48 @@
+.tasks{
+    padding: 40px;
+    position: relative;
+}
+.todo{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    border-radius: 40px;
+    color: white;
+    display: grid;
+    grid-template-columns: 9fr 3fr ;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.todo-name{
+    display: flex;
+    padding-left: 15px;
+    gap: 10px;
+    align-items: center;
+}
+
+.action{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.todo-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time-logo{
+    font-size: .8rem;
+    color: white;
+}
+.time-label{
+font-size: .8rem;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
